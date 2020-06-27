@@ -1,0 +1,124 @@
+.innerb{
+     height:1220px;
+     width: 1420px;
+     position: relative;
+     left: 40px;
+}
+.outerb{
+    height:1300px;
+    width: 1500px;
+    position: absolute;
+}
+.ball1{
+    height:40px;
+    width: 40px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    animation-name: ball1;
+    animation-timing-function: linear;
+    animation-fill-mode: alternate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes ball1{
+    100%{
+        transform: translateX(1430px);
+        background-color: blueviolet;
+        border-radius: 50%;
+    }
+    65%{
+        box-shadow: 60px 0px black;
+    }
+    35%{
+        border-radius: 20%;
+        background-color: chartreuse;
+        box-shadow: -60px 0px black;
+    }
+}
+.ball2{
+    height:40px;
+    width: 40px;
+    position: absolute;
+    right:0;
+    top:0;
+    border-radius: 50%;
+    background-color: blueviolet;
+    animation-name: ball2;
+    animation-timing-function: linear;
+    animation-fill-mode: alternate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes ball2{
+    100%{
+        transform: translateY(1260px);
+        background-color: blueviolet;
+        border-radius: 50%;
+    }
+    65%{
+        box-shadow: 0px 60px black;
+    }
+    35%{
+        border-radius: 20%;
+        background-color: chartreuse;
+        box-shadow: 0px -60px black;
+    }
+}
+.ball3{
+    height:40px;
+    width: 40px;
+    background-color: blueviolet;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    animation-name: ball3;
+    animation-timing-function: linear;
+    animation-fill-mode: alternate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes ball3{
+    100%{
+        transform: translateX(-1430px);
+        background-color: blueviolet;
+        border-radius: 50%;
+    }
+    65%{
+        box-shadow: 60px 0px black;
+    }
+    35%{
+        border-radius: 20%;
+        background-color: chartreuse;
+        box-shadow: -60px 0px black;
+    }
+}
+.ball4{
+    height:40px;
+    width: 40px;
+    background-color: blueviolet;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    animation-name: ball4;
+    animation-timing-function: linear;
+    animation-fill-mode: alternate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes ball4{
+    100%{
+        transform: translateY(-1260px);
+        background-color: blueviolet;
+        border-radius: 50%;
+    }
+    65%{
+        box-shadow: 0px 60px black;
+    }
+    35%{
+        border-radius: 20%;
+        background-color: chartreuse;
+        box-shadow: 0px -60px black;
+    }
+}
