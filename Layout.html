@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+  <html>
+      <head>
+          <script>
+             function scrollPage()
+                 {
+                     window.scrollBy(0,500);
+                 } 
+             function showtitleCh1()
+               {
+                   document.getElementById("tit1").style.opacity="1";
+               }
+               function showtitleCh2()
+               {
+                   document.getElementById("tit2").style.opacity="1";
+               }
+               function showtitleCh3()
+               {
+                   document.getElementById("tit3").style.opacity="1";
+               }
+              function removetitleCh1()
+               {
+                  document.getElementById("tit1").style.opacity="0";
+               } 
+              function removetitleCh2()
+               {
+                  document.getElementById("tit2").style.opacity="0";
+               } 
+              function removetitleCh3()
+               {
+                  document.getElementById("tit3").style.opacity="0";
+               } 
+          </script>
+          <style>
+               
+          </style>
+          <link rel="stylesheet" type="text/css" href="https://tanmoyhaldar.github.io/story_book/layout.css">
+          <link rel="stylesheet" type="text/css" href="https://tanmoyhaldar.github.io/story_book/border.css">
+          <link rel="icon" type="icon/png" href="https://tanmoyhaldar.github.io/story_book/icon.png">
+
+          <title>STORYBOOK</title>
+      </head>
+      <body>
+          <div class="outerb">
+                <div class="ball1"></div>
+                <div class="ball2"></div>
+                <div class="ball3"></div>
+                <div class="ball4"></div>
+                <div class="innerb">
+                    <table width="90%">
+                        <tr id="ta">
+                            <td>
+                               <h1 id="ha">Written By</h1>
+                                <h2 id="hb">TANMOY HALDAR</h2>
+                            </td>
+                            <td>
+                              <div class="fimg">
+                                  <img id="ig" src="https://tanmoyhaldar.github.io/myself/image.jpg">
+                              </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <div onclick="scrollPage()" class="intro">
+                       <h1 id="ind">CLICK HERE</h1>
+                    </div>
+                    <table>
+                        <tr>
+                            <td>
+                                        <div class="social">
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <a title="FACEBOOK" href="https://www.facebook.com/tanmoy.haldar.9862/" target="_blank">
+                                                            <img id="sm" src="https://tanmoyhaldar.github.io/myself/fb.jpg">
+                                                        </a>
+                                                    </td>
+                                                   <td>
+                                                      <a title="INSTAGRAM" href="https://www.instagram.com/tanmoy.haldar.th/" target="_blank">
+                                                        <img id="sm" src="https://tanmoyhaldar.github.io/myself/insta.jfif">
+                                                      </a>
+                                                  </td>
+                                                  <td>
+                                                      <a title="LINKEDIN" href="https://www.linkedin.com/in/tanmoy-haldar-835aa016a/" target="_blank">
+                                                        <img id="sm" src="https://tanmoyhaldar.github.io/myself/linkedin.png">
+                                                      </a>
+                                                  </td>
+                                                  <td>
+                                                      <a title="TWITTER" href="https://twitter.com/tanmoyhaldar18" target="_blank">
+                                                        <img id="sm" src="https://tanmoyhaldar.github.io/myself/twit.jfif">
+                                                      </a>
+                                                  </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                           </td>
+                           <td>
+                            <div class="index">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <h1 id="ch" title="CLICK HERE" onmouseover="showtitleCh1()" onmouseout="removetitleCh1()">
+                                                <a href="">CHAPTER-1</a>
+                                            </h1>
+                                        </td>
+                                        <td>
+                                            <div id="tit">
+                                                <h1 id="tit1">FUNNY CHILDHOOD</h1>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <h1 id="ch" title="CLICK HERE" onmouseover="showtitleCh2()" onmouseout="removetitleCh2()">
+                                            <a href="">CHAPTER-2</a>
+                                            </h1>
+                                        </td>
+                                        <td>
+                                            <div id="tit">
+                                                <h1 id="tit2">FRIEND REQUEST</h1>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <h1 id="ch" title="CLICK HERE" onmouseover="showtitleCh3()" onmouseout="removetitleCh3()">
+                                            <a href="">CHAPTER-3</a>
+                                            </h1>
+                                        </td>
+                                        <td>
+                                              <div id="tit">
+                                                <h1 id="tit3">THREE NIGHTS EQUALS<br>BILLIONAIRE</h1>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>            
+                        </div>
+                           </td>
+                        </tr>
+                    </table>
+                   
+                </div>
+          </div>
+          <div class="direction">
+              <img id="up" title="MOVE TO UP" src="https://tanmoyhaldar.github.io/story_book/arrowup.png">
+              <img id="down" title="MOVE TO DOWN" src="https://tanmoyhaldar.github.io/story_book/arrowdow.png">
+              <img id="left" title="MOVE TO UP" src="https://tanmoyhaldar.github.io/story_book/left.png">
+              <img id="right" title="MOVE TO DOWN" src="https://tanmoyhaldar.github.io/story_book/right.png">
+          </div>
+      </body>
+  </html>
